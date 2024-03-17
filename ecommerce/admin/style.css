@@ -1,0 +1,88 @@
+@import http://fonts.googleapis.com/css?family=Raleway;
+
+#main {
+width:1800px;
+height:500px;
+background-image: url('img-bg');
+margin:50px auto;
+font-family:raleway
+}
+.img-bg {
+		background-image:url('foo.jpg');
+
+		width:1800px;
+		height:700px;
+		margin-top:60px;
+}
+span {
+color:#ffffff;
+}
+.box {
+width:300px;
+height:400px;
+float:center;
+border-radius:10px;
+font-family:raleway;
+border:2px solid #ccc;
+padding:10px 40px 25px;
+margin-top:60px;
+background-color: #08f26e;
+}
+h2 {
+background-color:#FEFFED;
+text-align:center;
+border-radius:10px 10px 0 0;
+margin:-10px -40px;
+padding:15px
+}
+hr {
+border:0;
+border-bottom:1px solid #ccc;
+margin:10px -40px;
+margin-bottom:30px
+}
+#login {
+width:300px;
+height:400px;
+float:center;
+border-radius:10px;
+font-family:raleway;
+border:2px solid #ccc;
+padding:10px 40px 25px;
+margin-top:60px;
+background-color: #ffffff;
+}
+input[type=text],input[type=password] {
+width:99.5%;
+padding:10px;
+margin-top:8px;
+border:1px solid #ccc;
+padding-left:5px;
+font-size:16px;
+font-family:raleway
+
+}
+input[type=submit] {
+width:100%;
+background-color:#3792cb;
+color:#fff;
+border:2px solid #3792cb;
+padding:10px;
+font-size:20px;
+cursor:pointer;
+border-radius:5px;
+margin-bottom:15px
+}
+
+#logout {
+float:right;
+padding:5px;
+border:dashed 1px gray
+}
+a {
+text-decoration:none;
+color:#6495ed
+}
+i {
+color:#6495ed
+}
